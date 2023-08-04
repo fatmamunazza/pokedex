@@ -1,0 +1,307 @@
+.header{
+    margin-top: 50px;
+    height: 64px;
+    display: flex;
+}
+
+.title{
+    color:#2E3156;
+    padding-left: 50px;
+    text-align: left;
+    text-size-adjust: true;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+}
+
+.vr{
+    padding: 1px;
+    margin: 0 10px;
+
+    height: 30px;
+}
+
+.desc{
+    justify-content: left;
+    text-align: left;
+    color: #5D5F7E;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.filter-container{
+    text-align: left;
+    padding: 25px 50px 20px 50px;
+}
+
+.image{
+    width: 100%;
+}
+
+.card{
+    box-sizing: border-box;
+    left: 0px;
+    top: 1px;
+    
+    /* background: linear-gradient(180deg, #C0D4C8 0%, #CFB7ED 100%); */
+    border: 1px dashed #2E3156;
+    border-radius: 8px;
+}
+
+.card-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #2E3156;
+}
+
+.card-number{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #2E3156;
+
+}
+
+.item-container{
+    padding: 25px 50px 20px 50px;
+}
+
+
+html{
+    background: #DEEDED;
+}
+
+.page{
+    background: #DEEDED;
+}
+
+
+.filter-container label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D5F7E;
+}
+
+/* .filter-container input{
+    background: #C9DDE2;
+    border-radius: 8px;
+} */
+
+.name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+
+    color: #2E3156;
+    text-align: center;
+}
+
+.index{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #2E3156;
+    text-align: center;
+
+}
+
+.props{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+color: #2E3156;
+
+}
+
+.stats-container{
+    background: #B0D2D2;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.stats-container span {
+    width: 85px;
+    display: inline-block;
+}
+.range-bar{
+    display: inline-block;
+    position: relative;
+    width: calc(100% - 85px);
+    background: #93B3B3;
+}
+
+.range-bar > div{
+    position: absolute;
+    display: inline-block;
+    background: #2E3156;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+}
+
+.modal-body{
+    background: #DEEDED;
+}
+
+.text-chip > span{
+    padding: 5px 7px;
+    margin: 2px;
+    /* background: #E6C5C9; */
+    border: 1px solid #2E3156;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2E3156;
+}
+
+.movers{
+    margin-left: 15px;
+}
+.movers > span{
+    padding: 4px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #C9DDE2;
+    border: none;
+}
+  
+.search-icon {
+padding: 8px;
+background: #C9DDE2;
+}
+
+.search-container input{
+flex: 1;
+border: none;
+padding: 8px;
+background: #C9DDE2;
+border-radius: 8px;
+}
+
+.bar-icon{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+
+.filter-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: start;
+
+    color: #2E3156;
+}
+.hr{
+    margin: 0;
+   
+}
+
+.btn-outline-primary{
+    width:100%;
+    color:#2E3156;
+    border-color: #2E3156;
+   
+}
+
+.btn-outline-primary:hover{
+    width:100%;
+    border-color: #2E3156;
+    background-color: #2E3156 !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #2E3156 !important;
+    border-color: #2E3156;
+    width:100%;
+}
+.footer{
+    width:100%;
+}
+
+.filter-box{
+    border: 1px solid #2E3156;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    align-content: center;
+    padding-top: 5px;
+    text-align: center;
+}
+.filter-box .col{
+    align-self: center;
+}
+
+.filter-text2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    align-items: center;
+    color: #2E3156;
+}
+
+.filter-modal{
+    height:80%;
+}
+
+.checkBoxRow{
+    text-align: left;
+    padding-left: 20px;
+   padding-top: 10px;
+}
+
+.checkBox{
+    padding-bottom: 10px;
+}
+
+.CheckboxExpand{
+    visibility:collapse;
+}
+
+.able{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2E3156;
+}
